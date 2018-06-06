@@ -1,0 +1,13 @@
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	unstage = reset HEAD --
+	hist = log --pretty=format:\"%Cred%h%Creset %Cgreen%ad%Creset | %s%C(yellow)%d%Creset %Cblue[%an]%Creset\" --graph --date=format:'%H:%M %d-%b-%Y'
+[user]
+	name = Fahmi Ardhianto
+	email = fahmi.ardhianto@gmail.com
+[core]
+	editor = vim
+[push]
+	default = simple
